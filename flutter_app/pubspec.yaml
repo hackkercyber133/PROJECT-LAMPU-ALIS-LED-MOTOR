@@ -1,0 +1,16 @@
+name: alis_project
+description: ALIS PROJECT - kontrol lampu LED alis motor via BLE (ESP32-C3)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.35.0
+  permission_handler: ^11.3.1
+
+flutter:
+  uses-material-design: true
